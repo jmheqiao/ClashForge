@@ -193,14 +193,6 @@ proxies:
   server: 84.19.31.63
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 0|--3-JZxj
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  tfo: false
-  type: ss
 - name: 🇯🇵JP-13.114.67.166-6257
   type: ss
   server: 13.114.67.166
@@ -326,16 +318,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: US_b5ce7_0025
-  server: nsus3.irundns.net
-  port: 443
-  type: ssr
-  cipher: aes-128-cfb
-  password: +asd6a5s5df+
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: ''
-  obfs-param: ''
 - name: 英国+伦敦Amazon数据中心-HmHY
   type: ss
   server: series-a2.varzesh360.co
@@ -357,13 +339,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🇺🇸 US_487
-  type: ss
-  server: series-a2-mec.varzesh360.co
-  port: '443'
-  cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -376,40 +351,37 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇺🇸_US_美国_2
+  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - www.gco.gov.qa
+  - 🇨🇳 visa.cn
   - brazil.com
+  - www.gov.se
   - 🇮🇸 time.is
+  - www.wto.org
+  - 🇭🇰 icook.hk
   - fbi.gov
   - 🇷🇺 russia.com
-  - www.wto.org
-  - www.gov.ua
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇭🇰 icook.hk
-  - DE德国(mibei77.com 米贝节点分享)
-  - 🇺🇸US-54.244.200.142-6345
-  - 🇩🇪 DE_324
-  - 🇨🇳 visa.cn
-  - US_b5ce7_0025
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
-  - 🇯🇵JP-13.114.67.166-6257
-  - 🇱🇻_LV_拉脱维亚
   - 美国5
-  - KR_b5ce7_0012
+  - www.gov.ua
   - 美国3
-  - 🇺🇸 US_470
-  - 🇯🇵 免费-日本2-Ver.7
+  - 🇺🇸US-54.244.200.142-6345
+  - 🇯🇵JP-13.114.67.166-6257
   - 🇯🇵2
-  - 0|--3-JZxj
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇯🇵 免费-日本2-Ver.7
+  - KR_b5ce7_0012
   - 英国+伦敦Amazon数据中心-HmHY
+  - 🇺🇸 US_470
+  - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
   - 🇯🇵 免费-日本6-Ver.7
   - 🇸🇬6
-  - 🇺🇸_US_美国_2
-  - 🇺🇸 US_487
+  - 🇱🇻_LV_拉脱维亚
   - 日本2
+  - 🇬🇧 英国
   - 日本1
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 台湾3
   url: http://www.pinterest.com
   interval: 300
@@ -418,80 +390,74 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇺🇸_US_美国_2
+  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - www.gco.gov.qa
+  - 🇨🇳 visa.cn
   - brazil.com
+  - www.gov.se
   - 🇮🇸 time.is
+  - www.wto.org
+  - 🇭🇰 icook.hk
   - fbi.gov
   - 🇷🇺 russia.com
-  - www.wto.org
-  - www.gov.ua
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇭🇰 icook.hk
-  - DE德国(mibei77.com 米贝节点分享)
-  - 🇺🇸US-54.244.200.142-6345
-  - 🇩🇪 DE_324
-  - 🇨🇳 visa.cn
-  - US_b5ce7_0025
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
-  - 🇯🇵JP-13.114.67.166-6257
-  - 🇱🇻_LV_拉脱维亚
   - 美国5
-  - KR_b5ce7_0012
+  - www.gov.ua
   - 美国3
-  - 🇺🇸 US_470
-  - 🇯🇵 免费-日本2-Ver.7
+  - 🇺🇸US-54.244.200.142-6345
+  - 🇯🇵JP-13.114.67.166-6257
   - 🇯🇵2
-  - 0|--3-JZxj
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇯🇵 免费-日本2-Ver.7
+  - KR_b5ce7_0012
   - 英国+伦敦Amazon数据中心-HmHY
+  - 🇺🇸 US_470
+  - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
   - 🇯🇵 免费-日本6-Ver.7
   - 🇸🇬6
-  - 🇺🇸_US_美国_2
-  - 🇺🇸 US_487
+  - 🇱🇻_LV_拉脱维亚
   - 日本2
+  - 🇬🇧 英国
   - 日本1
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 台湾3
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
+  - 🇺🇸_US_美国_2
+  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - www.gco.gov.qa
+  - 🇨🇳 visa.cn
   - brazil.com
+  - www.gov.se
   - 🇮🇸 time.is
+  - www.wto.org
+  - 🇭🇰 icook.hk
   - fbi.gov
   - 🇷🇺 russia.com
-  - www.wto.org
-  - www.gov.ua
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇭🇰 icook.hk
-  - DE德国(mibei77.com 米贝节点分享)
-  - 🇺🇸US-54.244.200.142-6345
-  - 🇩🇪 DE_324
-  - 🇨🇳 visa.cn
-  - US_b5ce7_0025
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
-  - 🇯🇵JP-13.114.67.166-6257
-  - 🇱🇻_LV_拉脱维亚
   - 美国5
-  - KR_b5ce7_0012
+  - www.gov.ua
   - 美国3
-  - 🇺🇸 US_470
-  - 🇯🇵 免费-日本2-Ver.7
+  - 🇺🇸US-54.244.200.142-6345
+  - 🇯🇵JP-13.114.67.166-6257
   - 🇯🇵2
-  - 0|--3-JZxj
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇯🇵 免费-日本2-Ver.7
+  - KR_b5ce7_0012
   - 英国+伦敦Amazon数据中心-HmHY
+  - 🇺🇸 US_470
+  - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
   - 🇯🇵 免费-日本6-Ver.7
   - 🇸🇬6
-  - 🇺🇸_US_美国_2
-  - 🇺🇸 US_487
+  - 🇱🇻_LV_拉脱维亚
   - 日本2
+  - 🇬🇧 英国
   - 日本1
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 台湾3
 rules:
 - DOMAIN,app.adjust.com,DIRECT
