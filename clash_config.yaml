@@ -323,34 +323,34 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
-  - brazil.com
   - www.gco.gov.qa
   - 🇷🇺 russia.com
-  - www.wto.org
-  - fbi.gov
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - www.gov.ua
   - www.gov.se
+  - www.wto.org
   - 🇮🇸 time.is
+  - fbi.gov
   - 🇺🇸_US_美国_2
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - 🇨🇳 visa.cn
-  - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
+  - 🇨🇳 visa.cn
   - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 英国+伦敦Amazon数据中心-HmHY
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 🇯🇵JP-13.114.67.166-6257
   - 美国5
-  - KR_b5ce7_0012
   - 美国3
+  - KR_b5ce7_0012
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
+  - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
   - 日本1
   - 日本2
-  - 🇸🇬6
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -358,67 +358,67 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
-  - brazil.com
   - www.gco.gov.qa
   - 🇷🇺 russia.com
-  - www.wto.org
-  - fbi.gov
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - www.gov.ua
   - www.gov.se
+  - www.wto.org
   - 🇮🇸 time.is
+  - fbi.gov
   - 🇺🇸_US_美国_2
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - 🇨🇳 visa.cn
-  - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
+  - 🇨🇳 visa.cn
   - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 英国+伦敦Amazon数据中心-HmHY
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 🇯🇵JP-13.114.67.166-6257
   - 美国5
-  - KR_b5ce7_0012
   - 美国3
+  - KR_b5ce7_0012
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
+  - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
   - 日本1
   - 日本2
-  - 🇸🇬6
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
-  - brazil.com
   - www.gco.gov.qa
   - 🇷🇺 russia.com
-  - www.wto.org
-  - fbi.gov
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - www.gov.ua
   - www.gov.se
+  - www.wto.org
   - 🇮🇸 time.is
+  - fbi.gov
   - 🇺🇸_US_美国_2
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - 🇨🇳 visa.cn
-  - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
+  - 🇨🇳 visa.cn
   - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 英国+伦敦Amazon数据中心-HmHY
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 🇯🇵JP-13.114.67.166-6257
   - 美国5
-  - KR_b5ce7_0012
   - 美国3
+  - KR_b5ce7_0012
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
+  - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
   - 日本1
   - 日本2
-  - 🇸🇬6
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
