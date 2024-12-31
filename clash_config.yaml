@@ -186,13 +186,6 @@ proxies:
   server: 84.19.31.63
   type: ss
   udp: true
-- name: 🇯🇵JP-13.114.67.166-6257
-  type: ss
-  server: 13.114.67.166
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇬🇧 英国
   server: 51.38.65.155
   port: 443
@@ -249,13 +242,6 @@ proxies:
   password: exaxgqkKkd0TAMrCxeonWg==
 - name: 🇯🇵2
   server: japan-2.keenvpn.me
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  udp: true
-- name: 🇸🇬6
-  server: singapore-6.keenvpn.me
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -323,34 +309,32 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - fbi.gov
+  - www.wto.org
+  - 🇮🇸 time.is
   - www.gco.gov.qa
   - 🇷🇺 russia.com
   - 🇭🇰 icook.hk
   - brazil.com
-  - www.gov.ua
   - www.gov.se
-  - www.wto.org
-  - 🇮🇸 time.is
-  - fbi.gov
+  - www.gov.ua
   - 🇺🇸_US_美国_2
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - 🇨🇳 visa.cn
   - 🇬🇧 英国
   - 英国+伦敦Amazon数据中心-HmHY
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
-  - 🇯🇵JP-13.114.67.166-6257
-  - 美国5
+  - DE_b5ce7_0008
   - 美国3
   - KR_b5ce7_0012
+  - 美国5
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
-  - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
-  - 日本1
   - 日本2
+  - 日本1
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -358,67 +342,63 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - fbi.gov
+  - www.wto.org
+  - 🇮🇸 time.is
   - www.gco.gov.qa
   - 🇷🇺 russia.com
   - 🇭🇰 icook.hk
   - brazil.com
-  - www.gov.ua
   - www.gov.se
-  - www.wto.org
-  - 🇮🇸 time.is
-  - fbi.gov
+  - www.gov.ua
   - 🇺🇸_US_美国_2
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - 🇨🇳 visa.cn
   - 🇬🇧 英国
   - 英国+伦敦Amazon数据中心-HmHY
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
-  - 🇯🇵JP-13.114.67.166-6257
-  - 美国5
+  - DE_b5ce7_0008
   - 美国3
   - KR_b5ce7_0012
+  - 美国5
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
-  - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
-  - 日本1
   - 日本2
+  - 日本1
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
+  - fbi.gov
+  - www.wto.org
+  - 🇮🇸 time.is
   - www.gco.gov.qa
   - 🇷🇺 russia.com
   - 🇭🇰 icook.hk
   - brazil.com
-  - www.gov.ua
   - www.gov.se
-  - www.wto.org
-  - 🇮🇸 time.is
-  - fbi.gov
+  - www.gov.ua
   - 🇺🇸_US_美国_2
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - 🇨🇳 visa.cn
   - 🇬🇧 英国
   - 英国+伦敦Amazon数据中心-HmHY
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
-  - 🇯🇵JP-13.114.67.166-6257
-  - 美国5
+  - DE_b5ce7_0008
   - 美国3
   - KR_b5ce7_0012
+  - 美国5
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
-  - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
-  - 日本1
   - 日本2
+  - 日本1
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
