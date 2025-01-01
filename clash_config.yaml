@@ -250,16 +250,6 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 🇯🇵 免费-日本6-Ver.7
-  server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  port: 28785
-  type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-  alterId: 99999
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  udp: true
 - name: DE_b5ce7_0008
   server: 89.187.169.71
   port: 8443
@@ -282,16 +272,16 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
-  - brazil.com
   - www.gov.ua
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - www.gco.gov.qa
-  - 🇭🇰 icook.hk
-  - www.wto.org
   - fbi.gov
+  - www.wto.org
   - www.gov.se
+  - 🇭🇰 icook.hk
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - brazil.com
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
   - 🇬🇧 英国
@@ -300,10 +290,9 @@ proxy-groups:
   - 美国3
   - 美国5
   - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵 免费-日本6-Ver.7
+  - 🇯🇵2
   - 日本1
   - 日本2
-  - 🇯🇵2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -311,16 +300,16 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
-  - brazil.com
   - www.gov.ua
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - www.gco.gov.qa
-  - 🇭🇰 icook.hk
-  - www.wto.org
   - fbi.gov
+  - www.wto.org
   - www.gov.se
+  - 🇭🇰 icook.hk
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - brazil.com
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
   - 🇬🇧 英国
@@ -329,25 +318,24 @@ proxy-groups:
   - 美国3
   - 美国5
   - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵 免费-日本6-Ver.7
+  - 🇯🇵2
   - 日本1
   - 日本2
-  - 🇯🇵2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇮🇸 time.is
-  - brazil.com
   - www.gov.ua
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - www.gco.gov.qa
-  - 🇭🇰 icook.hk
-  - www.wto.org
   - fbi.gov
+  - www.wto.org
   - www.gov.se
+  - 🇭🇰 icook.hk
   - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - brazil.com
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
   - 🇬🇧 英国
@@ -356,10 +344,9 @@ proxy-groups:
   - 美国3
   - 美国5
   - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵 免费-日本6-Ver.7
+  - 🇯🇵2
   - 日本1
   - 日本2
-  - 🇯🇵2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
