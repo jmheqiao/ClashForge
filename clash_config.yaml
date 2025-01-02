@@ -193,14 +193,6 @@ proxies:
   password: auto
   skip-cert-verify: true
   tfo: false
-- name: SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  type: ssr
-  server: 79.110.53.169
-  port: 8080
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
-  protocol: origin
-  obfs: plain
 - name: 日本1
   server: jpgmo101-cdn-route.couldflare-cdn.com
   port: 443
@@ -272,25 +264,24 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - fbi.gov
+  - www.gov.se
+  - www.gov.ua
+  - brazil.com
+  - www.gco.gov.qa
+  - www.wto.org
   - 🇺🇸_US_美国_2
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国3
   - 美国5
-  - www.wto.org
-  - www.gov.se
-  - 🇮🇸 time.is
-  - www.gov.ua
-  - 🇨🇳 visa.cn
-  - brazil.com
-  - fbi.gov
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
-  - www.gco.gov.qa
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
-  - 🇳🇱 荷兰
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
   - 日本2
   - 日本1
   url: http://www.pinterest.com
@@ -300,25 +291,24 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - fbi.gov
+  - www.gov.se
+  - www.gov.ua
+  - brazil.com
+  - www.gco.gov.qa
+  - www.wto.org
   - 🇺🇸_US_美国_2
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国3
   - 美国5
-  - www.wto.org
-  - www.gov.se
-  - 🇮🇸 time.is
-  - www.gov.ua
-  - 🇨🇳 visa.cn
-  - brazil.com
-  - fbi.gov
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
-  - www.gco.gov.qa
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
-  - 🇳🇱 荷兰
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
   - 日本2
   - 日本1
   url: http://www.pinterest.com
@@ -326,25 +316,24 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - fbi.gov
+  - www.gov.se
+  - www.gov.ua
+  - brazil.com
+  - www.gco.gov.qa
+  - www.wto.org
   - 🇺🇸_US_美国_2
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国3
   - 美国5
-  - www.wto.org
-  - www.gov.se
-  - 🇮🇸 time.is
-  - www.gov.ua
-  - 🇨🇳 visa.cn
-  - brazil.com
-  - fbi.gov
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
-  - www.gco.gov.qa
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵2
-  - 🇳🇱 荷兰
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
   - 日本2
   - 日本1
 rules:
