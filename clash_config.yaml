@@ -201,14 +201,6 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: 日本2
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
 - name: 美国3
   server: usgp3-cdn-route.couldflare-cdn.com
   port: 443
@@ -257,25 +249,24 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇺🇸_US_美国_2
   - 🇭🇰 icook.hk
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
   - brazil.com
   - www.gov.ua
-  - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - www.gov.se
-  - 🇮🇸 time.is
   - fbi.gov
+  - 美国5
+  - www.wto.org
+  - 🇨🇳 visa.cn
+  - 美国3
+  - www.gov.se
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - 🇯🇵 免费-日本2-Ver.7
+  - 日本1
   - 🇬🇧 英国
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
-  - 美国5
-  - 美国3
-  - 🇯🇵 免费-日本2-Ver.7
-  - 日本2
-  - 日本1
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -283,49 +274,47 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇺🇸_US_美国_2
   - 🇭🇰 icook.hk
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
   - brazil.com
   - www.gov.ua
-  - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - www.gov.se
-  - 🇮🇸 time.is
   - fbi.gov
+  - 美国5
+  - www.wto.org
+  - 🇨🇳 visa.cn
+  - 美国3
+  - www.gov.se
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - 🇯🇵 免费-日本2-Ver.7
+  - 日本1
   - 🇬🇧 英国
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
-  - 美国5
-  - 美国3
-  - 🇯🇵 免费-日本2-Ver.7
-  - 日本2
-  - 日本1
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
+  - 🇺🇸_US_美国_2
   - 🇭🇰 icook.hk
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
   - brazil.com
   - www.gov.ua
-  - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - www.gov.se
-  - 🇮🇸 time.is
   - fbi.gov
+  - 美国5
+  - www.wto.org
+  - 🇨🇳 visa.cn
+  - 美国3
+  - www.gov.se
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - 🇯🇵 免费-日本2-Ver.7
+  - 日本1
   - 🇬🇧 英国
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
-  - 美国5
-  - 美国3
-  - 🇯🇵 免费-日本2-Ver.7
-  - 日本2
-  - 日本1
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
