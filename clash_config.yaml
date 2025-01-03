@@ -193,14 +193,6 @@ proxies:
   password: auto
   skip-cert-verify: true
   tfo: false
-- name: 日本1
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
 - name: 美国3
   server: usgp3-cdn-route.couldflare-cdn.com
   port: 443
@@ -250,23 +242,22 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇺🇸_US_美国_2
-  - 🇭🇰 icook.hk
-  - brazil.com
-  - www.gov.ua
-  - fbi.gov
-  - 美国5
-  - www.wto.org
-  - 🇨🇳 visa.cn
-  - 美国3
   - www.gov.se
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
   - 🇮🇸 time.is
+  - www.wto.org
+  - 美国3
+  - www.gov.ua
+  - 🇨🇳 visa.cn
+  - 美国5
+  - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.gco.gov.qa
+  - brazil.com
   - 🇯🇵 免费-日本2-Ver.7
-  - 日本1
   - 🇬🇧 英国
-  - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -275,46 +266,44 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇺🇸_US_美国_2
-  - 🇭🇰 icook.hk
-  - brazil.com
-  - www.gov.ua
-  - fbi.gov
-  - 美国5
-  - www.wto.org
-  - 🇨🇳 visa.cn
-  - 美国3
   - www.gov.se
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
   - 🇮🇸 time.is
+  - www.wto.org
+  - 美国3
+  - www.gov.ua
+  - 🇨🇳 visa.cn
+  - 美国5
+  - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.gco.gov.qa
+  - brazil.com
   - 🇯🇵 免费-日本2-Ver.7
-  - 日本1
   - 🇬🇧 英国
-  - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
   - 🇺🇸_US_美国_2
-  - 🇭🇰 icook.hk
-  - brazil.com
-  - www.gov.ua
-  - fbi.gov
-  - 美国5
-  - www.wto.org
-  - 🇨🇳 visa.cn
-  - 美国3
   - www.gov.se
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
   - 🇮🇸 time.is
+  - www.wto.org
+  - 美国3
+  - www.gov.ua
+  - 🇨🇳 visa.cn
+  - 美国5
+  - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.gco.gov.qa
+  - brazil.com
   - 🇯🇵 免费-日本2-Ver.7
-  - 日本1
   - 🇬🇧 英国
-  - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
