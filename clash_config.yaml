@@ -241,23 +241,23 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - brazil.com
-  - www.gov.ua
-  - 🇮🇸 time.is
-  - www.wto.org
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - fbi.gov
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
-  - 美国3
   - 美国5
-  - 🇯🇵 免费-日本2-Ver.7
+  - 美国3
+  - 🇨🇳 visa.cn
+  - 🇭🇰 icook.hk
+  - www.gov.ua
+  - brazil.com
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
   - www.gov.se
+  - 🇯🇵 免费-日本2-Ver.7
+  - 🇳🇱 荷兰
+  - 🇬🇧 英国
+  - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -265,45 +265,45 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - brazil.com
-  - www.gov.ua
-  - 🇮🇸 time.is
-  - www.wto.org
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - fbi.gov
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
-  - 美国3
   - 美国5
-  - 🇯🇵 免费-日本2-Ver.7
+  - 美国3
+  - 🇨🇳 visa.cn
+  - 🇭🇰 icook.hk
+  - www.gov.ua
+  - brazil.com
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
   - www.gov.se
+  - 🇯🇵 免费-日本2-Ver.7
+  - 🇳🇱 荷兰
+  - 🇬🇧 英国
+  - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - brazil.com
-  - www.gov.ua
-  - 🇮🇸 time.is
-  - www.wto.org
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - fbi.gov
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
-  - 美国3
   - 美国5
-  - 🇯🇵 免费-日本2-Ver.7
+  - 美国3
+  - 🇨🇳 visa.cn
+  - 🇭🇰 icook.hk
+  - www.gov.ua
+  - brazil.com
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
   - www.gov.se
+  - 🇯🇵 免费-日本2-Ver.7
+  - 🇳🇱 荷兰
+  - 🇬🇧 英国
+  - DE_b5ce7_0008
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
