@@ -241,23 +241,23 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸_US_美国_2
-  - 🇮🇸 time.is
-  - fbi.gov
   - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - fbi.gov
+  - www.gov.se
   - www.wto.org
-  - 🇨🇳 visa.cn
   - brazil.com
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - www.gov.ua
+  - 🇺🇸_US_美国_2
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国5
   - 美国3
-  - www.gov.ua
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
   - 🇯🇵 免费-日本2-Ver.7
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
-  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -265,45 +265,45 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸_US_美国_2
-  - 🇮🇸 time.is
-  - fbi.gov
   - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - fbi.gov
+  - www.gov.se
   - www.wto.org
-  - 🇨🇳 visa.cn
   - brazil.com
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - www.gov.ua
+  - 🇺🇸_US_美国_2
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国5
   - 美国3
-  - www.gov.ua
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
   - 🇯🇵 免费-日本2-Ver.7
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
-  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸_US_美国_2
-  - 🇮🇸 time.is
-  - fbi.gov
   - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - fbi.gov
+  - www.gov.se
   - www.wto.org
-  - 🇨🇳 visa.cn
   - brazil.com
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - www.gov.ua
+  - 🇺🇸_US_美国_2
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国5
   - 美国3
-  - www.gov.ua
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
   - 🇯🇵 免费-日本2-Ver.7
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
-  - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
