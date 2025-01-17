@@ -224,21 +224,21 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
-  - 🇷🇺 russia.com
   - 🇺🇸_US_美国_2
-  - brazil.com
-  - 🇮🇸 time.is
-  - 🇨🇳 visa.cn
   - www.gov.se
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
+  - 🇮🇸 time.is
   - 美国5
   - 美国3
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - fbi.gov
+  - brazil.com
+  - www.wto.org
+  - 🇨🇳 visa.cn
+  - 🇭🇰 icook.hk
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -246,41 +246,41 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
-  - 🇷🇺 russia.com
   - 🇺🇸_US_美国_2
-  - brazil.com
-  - 🇮🇸 time.is
-  - 🇨🇳 visa.cn
   - www.gov.se
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
+  - 🇮🇸 time.is
   - 美国5
   - 美国3
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - fbi.gov
+  - brazil.com
+  - www.wto.org
+  - 🇨🇳 visa.cn
+  - 🇭🇰 icook.hk
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
-  - 🇷🇺 russia.com
   - 🇺🇸_US_美国_2
-  - brazil.com
-  - 🇮🇸 time.is
-  - 🇨🇳 visa.cn
   - www.gov.se
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
+  - 🇮🇸 time.is
   - 美国5
   - 美国3
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - fbi.gov
+  - brazil.com
+  - www.wto.org
+  - 🇨🇳 visa.cn
+  - 🇭🇰 icook.hk
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
