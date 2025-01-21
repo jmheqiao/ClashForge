@@ -224,17 +224,17 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.wto.org
-  - brazil.com
-  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
   - 🇮🇸 time.is
   - www.gov.ua
+  - brazil.com
+  - www.gov.se
+  - www.wto.org
   - fbi.gov
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
+  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
-  - www.gov.se
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 美国5
@@ -246,17 +246,17 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.wto.org
-  - brazil.com
-  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
   - 🇮🇸 time.is
   - www.gov.ua
+  - brazil.com
+  - www.gov.se
+  - www.wto.org
   - fbi.gov
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
+  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
-  - www.gov.se
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 美国5
@@ -266,17 +266,17 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - www.wto.org
-  - brazil.com
-  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
+  - 🇷🇺 russia.com
   - 🇮🇸 time.is
   - www.gov.ua
+  - brazil.com
+  - www.gov.se
+  - www.wto.org
   - fbi.gov
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
+  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
-  - www.gov.se
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 美国5
