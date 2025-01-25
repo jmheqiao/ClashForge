@@ -226,17 +226,17 @@ proxy-groups:
   proxies:
   - brazil.com
   - www.gov.ua
-  - 🇭🇰 icook.hk
-  - www.gov.se
-  - fbi.gov
-  - 🇮🇸 time.is
-  - www.wto.org
-  - www.gco.gov.qa
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - fbi.gov
+  - www.gov.se
+  - www.gco.gov.qa
+  - www.wto.org
+  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国3
   - 美国5
   url: http://www.pinterest.com
@@ -248,17 +248,17 @@ proxy-groups:
   proxies:
   - brazil.com
   - www.gov.ua
-  - 🇭🇰 icook.hk
-  - www.gov.se
-  - fbi.gov
-  - 🇮🇸 time.is
-  - www.wto.org
-  - www.gco.gov.qa
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - fbi.gov
+  - www.gov.se
+  - www.gco.gov.qa
+  - www.wto.org
+  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国3
   - 美国5
   url: http://www.pinterest.com
@@ -268,17 +268,17 @@ proxy-groups:
   proxies:
   - brazil.com
   - www.gov.ua
-  - 🇭🇰 icook.hk
-  - www.gov.se
-  - fbi.gov
-  - 🇮🇸 time.is
-  - www.wto.org
-  - www.gco.gov.qa
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - fbi.gov
+  - www.gov.se
+  - www.gco.gov.qa
+  - www.wto.org
+  - 🇭🇰 icook.hk
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国3
   - 美国5
 rules:
