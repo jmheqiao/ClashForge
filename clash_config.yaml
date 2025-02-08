@@ -202,16 +202,6 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: DE_b5ce7_0008
-  server: 89.187.169.71
-  port: 8443
-  type: vless
-  uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  network: tcp
 proxy-groups:
 - name: 节点选择
   type: select
@@ -224,21 +214,20 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - brazil.com
-  - www.gov.ua
-  - www.wto.org
-  - 🇭🇰 icook.hk
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - 🇮🇸 time.is
-  - fbi.gov
   - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 美国5
   - 美国3
+  - brazil.com
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇨🇳 visa.cn
+  - www.gov.ua
+  - www.gov.se
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -246,41 +235,39 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - brazil.com
-  - www.gov.ua
-  - www.wto.org
-  - 🇭🇰 icook.hk
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - 🇮🇸 time.is
-  - fbi.gov
   - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 美国5
   - 美国3
+  - brazil.com
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇨🇳 visa.cn
+  - www.gov.ua
+  - www.gov.se
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - brazil.com
-  - www.gov.ua
-  - www.wto.org
-  - 🇭🇰 icook.hk
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - 🇮🇸 time.is
-  - fbi.gov
   - 🇺🇸_US_美国_2
-  - 🇨🇳 visa.cn
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 美国5
   - 美国3
+  - brazil.com
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇨🇳 visa.cn
+  - www.gov.ua
+  - www.gov.se
+  - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
