@@ -206,15 +206,15 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇭🇰 icook.hk
+  - www.gov.se
+  - brazil.com
+  - www.gov.ua
+  - fbi.gov
   - 🇮🇸 time.is
   - www.gco.gov.qa
-  - www.gov.se
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - www.wto.org
   - 🇷🇺 russia.com
-  - brazil.com
-  - fbi.gov
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
@@ -226,15 +226,15 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇭🇰 icook.hk
+  - www.gov.se
+  - brazil.com
+  - www.gov.ua
+  - fbi.gov
   - 🇮🇸 time.is
   - www.gco.gov.qa
-  - www.gov.se
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - www.wto.org
   - 🇷🇺 russia.com
-  - brazil.com
-  - fbi.gov
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
@@ -244,15 +244,15 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
+  - 🇭🇰 icook.hk
+  - www.gov.se
+  - brazil.com
+  - www.gov.ua
+  - fbi.gov
   - 🇮🇸 time.is
   - www.gco.gov.qa
-  - www.gov.se
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - www.wto.org
   - 🇷🇺 russia.com
-  - brazil.com
-  - fbi.gov
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
