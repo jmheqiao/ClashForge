@@ -206,17 +206,17 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - www.gov.se
   - brazil.com
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
   - www.gov.ua
   - fbi.gov
-  - 🇮🇸 time.is
-  - www.gco.gov.qa
-  - www.wto.org
-  - 🇷🇺 russia.com
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
+  - www.gov.se
   - 🇳🇱 荷兰
   - 美国3
   url: http://www.pinterest.com
@@ -226,17 +226,17 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - www.gov.se
   - brazil.com
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
   - www.gov.ua
   - fbi.gov
-  - 🇮🇸 time.is
-  - www.gco.gov.qa
-  - www.wto.org
-  - 🇷🇺 russia.com
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
+  - www.gov.se
   - 🇳🇱 荷兰
   - 美国3
   url: http://www.pinterest.com
@@ -244,17 +244,17 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
+  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - www.gov.se
   - brazil.com
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
   - www.gov.ua
   - fbi.gov
-  - 🇮🇸 time.is
-  - www.gco.gov.qa
-  - www.wto.org
-  - 🇷🇺 russia.com
   - 🇺🇸_US_美国_2
   - 🇨🇳 visa.cn
+  - www.gov.se
   - 🇳🇱 荷兰
   - 美国3
 rules:
