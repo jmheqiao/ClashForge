@@ -206,18 +206,18 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - www.gov.se
+  - www.wto.org
   - www.gov.ua
+  - 🇮🇸 time.is
   - brazil.com
   - fbi.gov
-  - www.gco.gov.qa
+  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
-  - 🇮🇸 time.is
-  - www.wto.org
   - 🇺🇸_US_美国_2
+  - www.gco.gov.qa
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
+  - www.gov.se
   - 美国3
   url: http://www.pinterest.com
   interval: 300
@@ -226,36 +226,36 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - www.gov.se
+  - www.wto.org
   - www.gov.ua
+  - 🇮🇸 time.is
   - brazil.com
   - fbi.gov
-  - www.gco.gov.qa
+  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
-  - 🇮🇸 time.is
-  - www.wto.org
   - 🇺🇸_US_美国_2
+  - www.gco.gov.qa
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
+  - www.gov.se
   - 美国3
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇭🇰 icook.hk
-  - www.gov.se
+  - www.wto.org
   - www.gov.ua
+  - 🇮🇸 time.is
   - brazil.com
   - fbi.gov
-  - www.gco.gov.qa
+  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
-  - 🇮🇸 time.is
-  - www.wto.org
   - 🇺🇸_US_美国_2
+  - www.gco.gov.qa
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
+  - www.gov.se
   - 美国3
 rules:
 - DOMAIN,app.adjust.com,DIRECT
