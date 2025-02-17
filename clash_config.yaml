@@ -172,13 +172,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: 🇺🇸_US_美国_2
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-  udp: true
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
 - name: 🇳🇱 荷兰
   server: 5.255.118.176
   port: 443
@@ -206,18 +199,17 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸_US_美国_2
+  - brazil.com
+  - 美国3
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.gco.gov.qa
+  - www.gov.se
+  - www.wto.org
+  - 🇷🇺 russia.com
   - www.gov.ua
   - 🇨🇳 visa.cn
-  - www.wto.org
-  - www.gov.se
-  - 美国3
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - fbi.gov
-  - brazil.com
-  - 🇭🇰 icook.hk
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -226,36 +218,34 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸_US_美国_2
+  - brazil.com
+  - 美国3
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.gco.gov.qa
+  - www.gov.se
+  - www.wto.org
+  - 🇷🇺 russia.com
   - www.gov.ua
   - 🇨🇳 visa.cn
-  - www.wto.org
-  - www.gov.se
-  - 美国3
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - fbi.gov
-  - brazil.com
-  - 🇭🇰 icook.hk
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸_US_美国_2
+  - brazil.com
+  - 美国3
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.gco.gov.qa
+  - www.gov.se
+  - www.wto.org
+  - 🇷🇺 russia.com
   - www.gov.ua
   - 🇨🇳 visa.cn
-  - www.wto.org
-  - www.gov.se
-  - 美国3
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - fbi.gov
-  - brazil.com
-  - 🇭🇰 icook.hk
   - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
