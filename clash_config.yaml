@@ -165,14 +165,6 @@ proxies:
   password: auto
   skip-cert-verify: true
   tfo: false
-- name: 美国3
-  server: usgp3-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
 proxy-groups:
 - name: 节点选择
   type: select
@@ -185,17 +177,16 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.wto.org
   - fbi.gov
-  - 🇭🇰 icook.hk
-  - www.gov.ua
-  - brazil.com
   - 🇮🇸 time.is
+  - www.gov.ua
   - 🇷🇺 russia.com
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - brazil.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
-  - 美国3
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -203,33 +194,31 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.wto.org
   - fbi.gov
-  - 🇭🇰 icook.hk
-  - www.gov.ua
-  - brazil.com
   - 🇮🇸 time.is
+  - www.gov.ua
   - 🇷🇺 russia.com
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - brazil.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
-  - 美国3
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.wto.org
   - fbi.gov
-  - 🇭🇰 icook.hk
-  - www.gov.ua
-  - brazil.com
   - 🇮🇸 time.is
+  - www.gov.ua
   - 🇷🇺 russia.com
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - brazil.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
-  - 美国3
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
