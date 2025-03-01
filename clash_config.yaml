@@ -180,11 +180,11 @@ proxy-groups:
   - 🇭🇰 icook.hk
   - www.gov.ua
   - www.wto.org
+  - www.gov.se
   - 🇮🇸 time.is
-  - brazil.com
   - 🇷🇺 russia.com
   - fbi.gov
-  - www.gov.se
+  - brazil.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
@@ -197,11 +197,11 @@ proxy-groups:
   - 🇭🇰 icook.hk
   - www.gov.ua
   - www.wto.org
+  - www.gov.se
   - 🇮🇸 time.is
-  - brazil.com
   - 🇷🇺 russia.com
   - fbi.gov
-  - www.gov.se
+  - brazil.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
@@ -212,11 +212,11 @@ proxy-groups:
   - 🇭🇰 icook.hk
   - www.gov.ua
   - www.wto.org
+  - www.gov.se
   - 🇮🇸 time.is
-  - brazil.com
   - 🇷🇺 russia.com
   - fbi.gov
-  - www.gov.se
+  - brazil.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
 rules:
