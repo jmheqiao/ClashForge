@@ -178,14 +178,14 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇭🇰 icook.hk
-  - fbi.gov
-  - brazil.com
-  - 🇮🇸 time.is
   - 🇷🇺 russia.com
-  - www.gov.se
-  - www.gov.ua
   - www.wto.org
+  - brazil.com
+  - fbi.gov
+  - 🇮🇸 time.is
+  - www.gov.ua
   - 🇨🇳 visa.cn
+  - www.gov.se
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -195,14 +195,14 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇭🇰 icook.hk
-  - fbi.gov
-  - brazil.com
-  - 🇮🇸 time.is
   - 🇷🇺 russia.com
-  - www.gov.se
-  - www.gov.ua
   - www.wto.org
+  - brazil.com
+  - fbi.gov
+  - 🇮🇸 time.is
+  - www.gov.ua
   - 🇨🇳 visa.cn
+  - www.gov.se
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -210,14 +210,14 @@ proxy-groups:
   type: select
   proxies:
   - 🇭🇰 icook.hk
-  - fbi.gov
-  - brazil.com
-  - 🇮🇸 time.is
   - 🇷🇺 russia.com
-  - www.gov.se
-  - www.gov.ua
   - www.wto.org
+  - brazil.com
+  - fbi.gov
+  - 🇮🇸 time.is
+  - www.gov.ua
   - 🇨🇳 visa.cn
+  - www.gov.se
   - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
