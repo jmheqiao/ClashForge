@@ -46,20 +46,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: brazil.com
-  server: brazil.com
-  port: 2083
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sub.fish2018.us.kg
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.fish2018.us.kg
 - name: 🇷🇺 russia.com
   server: russia.com
   port: 2087
@@ -144,20 +130,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: 🇭🇰 icook.hk
-  server: icook.hk
-  port: 443
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sub.fish2018.us.kg
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.fish2018.us.kg
 - name: 🇳🇱 荷兰
   server: 5.255.118.176
   port: 443
@@ -179,13 +151,11 @@ proxy-groups:
   proxies:
   - www.gov.se
   - fbi.gov
+  - 🇷🇺 russia.com
   - www.wto.org
+  - 🇮🇸 time.is
   - www.gov.ua
   - 🇨🇳 visa.cn
-  - brazil.com
-  - 🇮🇸 time.is
-  - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -196,13 +166,11 @@ proxy-groups:
   proxies:
   - www.gov.se
   - fbi.gov
+  - 🇷🇺 russia.com
   - www.wto.org
+  - 🇮🇸 time.is
   - www.gov.ua
   - 🇨🇳 visa.cn
-  - brazil.com
-  - 🇮🇸 time.is
-  - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -211,13 +179,11 @@ proxy-groups:
   proxies:
   - www.gov.se
   - fbi.gov
+  - 🇷🇺 russia.com
   - www.wto.org
+  - 🇮🇸 time.is
   - www.gov.ua
   - 🇨🇳 visa.cn
-  - brazil.com
-  - 🇮🇸 time.is
-  - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
   - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
