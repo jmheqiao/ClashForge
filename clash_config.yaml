@@ -149,14 +149,14 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.se
   - www.wto.org
   - fbi.gov
   - 🇨🇳 visa.cn
   - 🇮🇸 time.is
+  - www.gov.se
+  - 🇷🇺 russia.com
   - www.gov.ua
   - 🇳🇱 荷兰
-  - 🇷🇺 russia.com
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -164,27 +164,27 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.se
   - www.wto.org
   - fbi.gov
   - 🇨🇳 visa.cn
   - 🇮🇸 time.is
+  - www.gov.se
+  - 🇷🇺 russia.com
   - www.gov.ua
   - 🇳🇱 荷兰
-  - 🇷🇺 russia.com
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gov.se
   - www.wto.org
   - fbi.gov
   - 🇨🇳 visa.cn
   - 🇮🇸 time.is
+  - www.gov.se
+  - 🇷🇺 russia.com
   - www.gov.ua
   - 🇳🇱 荷兰
-  - 🇷🇺 russia.com
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
