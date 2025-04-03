@@ -149,11 +149,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.se
+  - www.wto.org
   - 🇮🇸 time.is
   - www.gov.ua
+  - www.gov.se
   - fbi.gov
-  - www.wto.org
   - 🇷🇺 russia.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
@@ -164,11 +164,11 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.se
+  - www.wto.org
   - 🇮🇸 time.is
   - www.gov.ua
+  - www.gov.se
   - fbi.gov
-  - www.wto.org
   - 🇷🇺 russia.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
@@ -177,11 +177,11 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - www.gov.se
+  - www.wto.org
   - 🇮🇸 time.is
   - www.gov.ua
+  - www.gov.se
   - fbi.gov
-  - www.wto.org
   - 🇷🇺 russia.com
   - 🇨🇳 visa.cn
   - 🇳🇱 荷兰
