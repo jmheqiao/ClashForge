@@ -123,9 +123,9 @@ proxy-groups:
   proxies:
   - 🇮🇸 time.is
   - 🇷🇺 russia.com
+  - www.gov.ua
   - fbi.gov
   - www.gov.se
-  - www.gov.ua
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -136,9 +136,9 @@ proxy-groups:
   proxies:
   - 🇮🇸 time.is
   - 🇷🇺 russia.com
+  - www.gov.ua
   - fbi.gov
   - www.gov.se
-  - www.gov.ua
   - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
@@ -147,9 +147,9 @@ proxy-groups:
   proxies:
   - 🇮🇸 time.is
   - 🇷🇺 russia.com
+  - www.gov.ua
   - fbi.gov
   - www.gov.se
-  - www.gov.ua
   - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
